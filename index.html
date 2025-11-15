@@ -2,34 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Srivatsava Kasibhatla — ML & AI Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Machine Learning Portfolio – Srivatsava Kasibhatla</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; max-width: 800px; }
-    h1 { margin-bottom: 0.25rem; }
-    h2 { margin-top: 2rem; }
-    ul { line-height: 1.6; }
+    body { font-family: sans-serif; max-width: 1200px; margin: 3rem auto; line-height: 1.6; padding: 0 1rem; }
+    h1 { font-size: 1.8rem; }
+    h3 { margin-top: 2rem; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .caution { font-size: 0.85rem; color: #666; margin-top: 0.5rem; }
+    .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; float: right; margin-left: 2rem; }
   </style>
 </head>
 <body>
-  <h1>Srivatsava Kasibhatla</h1>
-  <p>Machine Learning Engineer · RL, LLMs & Geospatial</p>
+  <img src="your-image-path.jpg" alt="Srivatsava Kasibhatla" class="profile-img" />
+  <h1>Machine Learning Projects – Srivatsava Kasibhatla</h1>
+  <p>Hi! I'm a passionate and efficient AI professional seeking Machine Learning, Data Science and AI engineering roles. I have 3+ years of experience as a Data Scientist in the UK. Below are some personal projects showcasing my work in applied ML and AI.</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <a href="projects/brahmaanu.html">Brahmaanu LLM — Observatory Q&A</a>
-    </li>
-    <li>
-      <a href="projects/astrodiffusion.html">Astro-Diffusion — SD1.5 LoRA for Astronomy</a>
-    </li>
-    <li>
-      <a href="projects/adbudget_rl.html">AdBudget-RL — RL for Ad Budget Allocation</a>
-    </li>
-  </ul>
+  <h3>🪐 Astro-Diffusion Image Generator </h3>
+  <p>Fine-tuned Stable Diffusion model on astronomy images using LoRA. Generates astronomical images of Black Holes, Nebulae, Galaxies etc with improved quality and prompt adherence compared to base image. Packaged and deployed with a FastAPI backend and Gradio frontend.</p>
+  <p class="caution">⚠️ The demo takes time for cold start due to serverless deployment. It also has rate-limits due to my constraints. Please use it sparingly! </p>
+  <p>
+    <!-- UI link now points to your redirect page -->
+    <a href="projects/astro_diffusion.html" target="_blank">View Live Demo</a> |
+    <a href="https://github.com/KSV2001/astro_diffusion" target="_blank">GitHub</a> |
+    <a href="#" target="_blank">Recorded Video Demo</a>
+  </p>
+  
+  <h3>🚀 Brahmaanu-chatbot </h3>
+  <p>An internal helpful assistant for the employees of fictional Brahmaanu space observatory, to retireve information about policies and their data. Finetuned Mistral-7B with LoRA and packaged with front-end.</p>
+  <p class="caution">⚠️ Currently the front-end is only for demo, the model is not runing on the backend. I will add in future. </p>
+  <p>
+    <!-- UI link now points to your redirect page -->
+    <a href="projects/brahmaanu.html" target="_blank">Static UI Demo</a> |
+    <a href="https://github.com/KSV2001/brahmaanu_llm" target="_blank">GitHub</a> |
+    <a href="#" target="_blank">Recorded Video Demo</a>
+  </p>
+  
+  <h3>🧠 Marketing Budget Agent </h3>
+  <p>A Reinforcement learning agent that optimizes marketing budget allocation across multiple channels. Designed a custom RL environment inspired by OpenAI's Gymnasium library to simulate market dynamics realsitically. Trained an RL agent with Recurrent PPO.</p>
+  <p>
+    <a href="https://github.com/KSV2001/adbudget_rl" target="_blank">GitHub</a>
+  </p>
 
-  <p>For full project list and code, see my
-    <a href="https://github.com/KSV2001" target="_blank">GitHub</a>.
+  <p>📧 My Contact:
+    <a href="mailto:srivatsava.kas@gmail.com" target="_blank">Gmail</a> |
+    <a href="https://www.linkedin.com/in/kasibhatla-srivatsava-102852166/" target="_blank">LinkedIn</a>
   </p>
 </body>
 </html>
